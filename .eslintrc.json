@@ -5,11 +5,13 @@
   },
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
     "airbnb",
     "airbnb-typescript",
-    "plugin:prettier/recommended"
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jest-dom/recommended",
+    "plugin:prettier/recommended",
+    "plugin:testing-library/react"
   ],
   "globals": {
     "Atomics": "readonly",
@@ -29,7 +31,9 @@
     "react-hooks",
     "@typescript-eslint",
     "prettier",
-    "import"
+    "import",
+    "jest-dom",
+    "testing-library"
   ],
   "rules": {
     "react/jsx-uses-react": "off",
