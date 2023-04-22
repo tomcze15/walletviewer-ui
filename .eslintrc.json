@@ -38,11 +38,17 @@
   "rules": {
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
+    "prefer-const": "warn",
     "prettier/prettier": "error",
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "double"],
     "semi": ["error", "always"],
+    "no-shadow": "error",
+    "no-console": "warn",
+    "@typescript-eslint/no-implicit-any-catch": "warn",
+    "@typescript-eslint/no-unsafe-return": "warn",
+    "@typescript-eslint/no-unsafe-call": "warn",
     "import/order": [
       "error",
       {
